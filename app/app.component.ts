@@ -1,7 +1,18 @@
 import { Component } from '@angular/core';
 
 const todos = [
-    'Learn JS', 'Learn Angular', 'Make application'
+    {
+        title: 'Learn JS',
+        completed: true
+    },
+    {
+        title: 'Learn Angular',
+        completed: false
+    },
+    {
+        title:  'Make application',
+        completed: false
+    }
 ];
 
 @Component({
