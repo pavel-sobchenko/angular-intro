@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 
+const todos = [
+    'Learn JS', 'Learn Angular', 'Make application'
+];
+
 @Component({
     moduleId: module.id,
     selector: 'app',
@@ -8,4 +12,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
     title = 'Angular 2Do';
+    todos = todos;
 }
