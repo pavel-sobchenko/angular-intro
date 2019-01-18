@@ -10,7 +10,7 @@ const todos = [
         completed: false
     },
     {
-        title: 'Make application',
+        title:  'Make application',
         completed: false
     }
 ];
